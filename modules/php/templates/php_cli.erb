@@ -1,0 +1,6 @@
+sed -i "s|; date.timezone =|date.timezone = Europe/London|" <%= @cli_php_path %> &&\
+sed -i "s|^display_errors = Off|display_errors = On|" <%= @cli_php_path %> &&\
+sed -i "s|^display_startup_errors = Off|display_startup_errors = On|" <%= @cli_php_path %> &&\
+sed -i "s|^post_max_size = 8M|post_max_size = 16M|" <%= @cli_php_path %> &&\
+sed -i "s|^upload_max_filesize = 2M|upload_max_filesize = 16M|" <%= @cli_php_path %> &&\
+sed -i "s|^; max_input_vars = 1000|max_input_vars = 10000|" <%= @cli_php_path %>
