@@ -1,10 +1,12 @@
 cat << EOF | tee -a <%= @apache_php_path %>
 
 zend_extension=xdebug.so
+
+xdebug.remote_connect_back = 1
 xdebug.remote_enable=true
-; xdebug.profiler_enable=1
-; xdebug.profile_output_dir=/tmp
 xdebug.screem=1
 xdebug.cli_color=2
 xdebug.show_local_vars=1
+; xdebug.profiler_enable=1
+; xdebug.profile_output_dir=/tmp
 EOF
