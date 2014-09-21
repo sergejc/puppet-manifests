@@ -1,7 +1,7 @@
 class linux {    
 
     $packages = [
-        'git-core', 'subversion', 'htop',
+        'git', 'subversion', 'htop',
         'zsh', 'vim', 'mc',
         'xvfb', 'unzip', 'curl',
         'build-essential', 
