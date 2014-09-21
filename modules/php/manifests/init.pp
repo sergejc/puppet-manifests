@@ -12,11 +12,7 @@ class php {
         'php5-memcached', 'php5-mongo', 'php5-mysqlnd',
         'php5-dev', 'php5-xsl', 'php5-pgsql', 
         'php5-imap', 'php5-imagick', 'php5-redis',
-<<<<<<< HEAD
         'php5-svn', 'php5-memcache'
-=======
-        'php5-svn', 'php5-xsl'
->>>>>>> 0ae8fdd5e8876d50f0f2f04ce22f0aa3ba0772e4
         ]
 
     package { $packagelist:
