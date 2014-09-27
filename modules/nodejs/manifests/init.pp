@@ -6,7 +6,7 @@ class nodejs {
         'mocha', 'yo', 'browserify',
         'beefy', 'gulp', 'react-tools',
         'lodash', 'generator-polymer', 'chai',
-        ' webdriverjs', 'phantomjs'
+        ' webdriverjs', 'phantomjs', 'grunt-init'
     ]
 
     apt::ppa { 'add-node-repo':
