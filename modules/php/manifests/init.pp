@@ -7,12 +7,12 @@ class php {
     
     $packagelist = [
         'php5', 'php5-cli', 'php5-curl',
-        'php5-gd', 'php5-json', 'php5-mysql',
+        'php5-gd', 'php5-json', 'php5-memcache',
         'php5-readline', 'php5-sqlite', 'php5-mcrypt',
         'php5-memcached', 'php5-mongo', 'php5-mysqlnd',
         'php5-dev', 'php5-xsl', 'php5-pgsql', 
         'php5-imap', 'php5-imagick', 'php5-redis',
-        'php5-svn', 'php5-memcache'
+        'php5-svn'
         ]
 
     package { $packagelist:
