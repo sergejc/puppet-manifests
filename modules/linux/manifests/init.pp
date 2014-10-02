@@ -8,6 +8,7 @@ class linux {
         'software-properties-common',
         'xclip', 'tree', 'wget', 'memcached',
         'apache2-utils', 'build-essential', 'libssl-dev'
+        'libssl-dev']
     ]
 
     package { $packages:
